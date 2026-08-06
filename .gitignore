@@ -1,0 +1,17 @@
+# 認証情報（絶対にコミットしない）
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+
+# 顧客の個人情報を含むファイル
+data/private/
+*_private.*
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+logs/
